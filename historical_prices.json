@@ -1,0 +1,278 @@
+[
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 0,
+        "location": "Bogota",
+        "date": ""
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 0,
+        "location": "Bogota",
+        "date": ""
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 0,
+        "location": "Bogota",
+        "date": ""
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 0,
+        "location": "Bogota",
+        "date": ""
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 0,
+        "location": "Bogota",
+        "date": ""
+    },
+    {
+        "year": "",
+        "month": "",
+        "monthWord": "",
+        "day": "",
+        "weekday": ""
+    }
+],
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 4.4,
+        "location": "Bogota",
+        "date": "2-5-2024"
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 6.5,
+        "location": "Bogota",
+        "date": "2-5-2024"
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 3.5,
+        "location": "Bogota",
+        "date": "2-5-2024"
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "2-5-2024"
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "2-5-2024"
+    },
+    {
+        "year": "",
+        "month": "",
+        "monthWord": "",
+        "day": "",
+        "weekday": ""
+    }
+],
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 3.8,
+        "location": "Bogota",
+        "date": "3-5-2024"
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 6.6,
+        "location": "Bogota",
+        "date": "3-5-2024"
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "3-5-2024"
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 3.6,
+        "location": "Bogota",
+        "date": "3-5-2024"
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "3-5-2024"
+    },
+    {
+        "year": "",
+        "month": "",
+        "monthWord": "",
+        "day": "",
+        "weekday": ""
+    }
+],
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 3.6,
+        "location": "Bogota",
+        "date": "6-5-2024"
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 8,
+        "location": "Bogota",
+        "date": "6-5-2024"
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 4,
+        "location": "Bogota",
+        "date": "6-5-2024"
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "6-5-2024"
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "6-5-2024"
+    },
+    {
+        "year": "",
+        "month": "",
+        "monthWord": "",
+        "day": "",
+        "weekday": ""
+    }
+],
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 4,
+        "location": "Bogota",
+        "date": "7-5-2024"
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 8.4,
+        "location": "Bogota",
+        "date": "7-5-2024"
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 4,
+        "location": "Bogota",
+        "date": "7-5-2024"
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "7-5-2024"
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 3,
+        "location": "Bogota",
+        "date": "7-5-2024"
+    },
+    {
+        "year": "",
+        "month": "",
+        "monthWord": "",
+        "day": "",
+        "weekday": ""
+    }
+]
+
+,
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 4.0,
+        "location": "Bogota",
+        "date": "8-5-2024"
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 8.0,
+        "location": "Bogota",
+        "date": "8-5-2024"
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 4.0,
+        "location": "Bogota",
+        "date": "8-5-2024"
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 3.0,
+        "location": "Bogota",
+        "date": "8-5-2024"
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 3.0,
+        "location": "Bogota",
+        "date": "8-5-2024"
+    },
+    {
+        "year": "2024",
+        "month": "5",
+        "monthWord": "mayo",
+        "day": "8",
+        "weekday": "Miercoles"
+    }
+]
+,
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 4.0,
+        "location": "Bogota",
+        "date": "9-5-2024"
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 8.4,
+        "location": "Bogota",
+        "date": "9-5-2024"
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 4.0,
+        "location": "Bogota",
+        "date": "9-5-2024"
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 3.0,
+        "location": "Bogota",
+        "date": "9-5-2024"
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 3.0,
+        "location": "Bogota",
+        "date": "9-5-2024"
+    },
+    {
+        "year": "2024",
+        "month": "5",
+        "monthWord": "mayo",
+        "day": "9",
+        "weekday": "Jueves"
+    }
+]
+]
