@@ -28,7 +28,18 @@ def date_current():
     return [year,month, monthWord, day, weekday];
 
 
+def extrac():
 
+    data = open(r"Boletin.pdf","rb")
+    reader = PdfReader(data);
+    page = reader.pages[1];
+
+    archivo = page.extract_text()
+
+    file = open("extrac.txt","r+")
+    file.write(archivo);
+    file.close();
+    print("texto extraido")
 
 
 
@@ -97,17 +108,7 @@ def productos(date):
 
 
 
-def extrac():
 
-    data = open(r"Boletin.pdf","rb")
-    reader = PdfReader(data);
-    page = reader.pages[1];
-
-    archivo = page.extract_text()
-
-    file = open("extrac.txt","r+")
-    file.write(archivo);
-    file.close();
 
 
 
