@@ -40,7 +40,7 @@ def productos(date):
     value = False;
 
     
-    with open("python\extrac.txt", "r+") as linea:
+    with open("extrac.txt", "r+") as linea:
         for a in linea:
             arrayWords = a.split();
             if(len(arrayWords) >= 2):
@@ -105,7 +105,7 @@ def extrac():
 
     archivo = page.extract_text()
 
-    file = open("python\extrac.txt","r+")
+    file = open("extrac.txt","r+")
     file.write(archivo);
     file.close();
 
@@ -123,7 +123,7 @@ def save_price():
     
     # los dos primero with es para eliminar el ] en el archivo json para poder concaternar el nuevo objeto json
     
-    with open("python/historical_prices.json","r+",encoding="utf-8") as historical_prices:
+    with open("historical_prices.json","r+",encoding="utf-8") as historical_prices:
         for linea in historical_prices:
             array_words.append(linea);
     array_words.pop();
@@ -131,11 +131,11 @@ def save_price():
     text.replace("\n", "")
     print(text)     
 
-    with open("python/historical_prices.json","w") as historical_prices:
+    with open("historical_prices.json","w") as historical_prices:
         historical_prices.write(text)
 
 
-    with open("python/historical_prices.json","a") as historical_prices:
+    with open("historical_prices.json","a") as historical_prices:
             data = json.dumps(products, indent=4)
             historical_prices.write(","+"\n"+data+"\n"+"]")
      
@@ -147,7 +147,7 @@ def alert_price():
     date = date_current();
     products = productos(date)
     
-    with open("python/info_users.json","r+") as file_info_users:
+    with open("info_users.json","r+") as file_info_users:
         content = json.loads(file_info_users.read());
         for user in  content:
             index = user['index']
