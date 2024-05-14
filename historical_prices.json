@@ -275,4 +275,44 @@
         "weekday": "Jueves"
     }
 ]
+,
+[
+    {
+        "name": "CEBOLLA CABEZONA ROJA ",
+        "price": 4.0,
+        "location": "Bogota",
+        "date": "14-5-2024"
+    },
+    {
+        "name": "FRIJOL VERDE ",
+        "price": 9.0,
+        "location": "Bogota",
+        "date": "14-5-2024"
+    },
+    {
+        "name": "TOMATE CHONTO ",
+        "price": 3.5,
+        "location": "Bogota",
+        "date": "14-5-2024"
+    },
+    {
+        "name": "MAZORCA ",
+        "price": 3.6,
+        "location": "Bogota",
+        "date": "14-5-2024"
+    },
+    {
+        "name": "PIMENTON ",
+        "price": 4.0,
+        "location": "Bogota",
+        "date": "14-5-2024"
+    },
+    {
+        "year": "2024",
+        "month": "5",
+        "monthWord": "mayo",
+        "day": "14",
+        "weekday": "Martes"
+    }
+]
 ]
