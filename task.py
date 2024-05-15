@@ -189,7 +189,7 @@ def dowload_save():
     """url_date = f"{year}/0{month}/Boletin-0{day}{monthWord}{year}.pdf"""
     
     
-    if(int (day) > 10):
+    if(int (day) >= 10):
         url_date = f"{year}/0{month}/Boletin-{day}{monthWord}{year}.pdf"
         if( int (month) > 10):
             url_date = f"{year}/{month}/Boletin-{day}{monthWord}{year}.pdf"
@@ -198,7 +198,7 @@ def dowload_save():
     
     else:
         url_date = f"{year}/0{month}/Boletin-0{day}{monthWord}{year}.pdf" 
-        if( int (month) > 10):
+        if( int (month) >= 10):
             url_date = f"{year}/{month}/Boletin-0{day}{monthWord}{year}.pdf"
         else:
             url_date = f"{year}/0{month}/Boletin-{day}{monthWord}{year}.pdf" 
