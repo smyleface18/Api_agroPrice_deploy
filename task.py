@@ -5,18 +5,19 @@ from datetime import date;
 from email_send import alert_email;
 from PyPDF2 import PdfReader;
 import json;
-
+import datetime;
+import pytz;
 
 
 
 
 def date_current():
-    
-    now = datetime.now();
-    day = str(now.day);
-    month = now.month;
-    year = str(now.year);
-    hour = str(now.hour);
+    bogota_tz = pytz.timezone("America/Bogota")
+    now_bogota = datetime.datetime.now(bogota_tz)
+    day = str(now_bogota.day);
+    month = now_bogota.month;
+    year = str(now_bogota.year);
+    hour = str(now_bogota.hour);
     WEEKDAYS = ("Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo");
     
     arrayMonths = ("enero","febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
@@ -24,7 +25,7 @@ def date_current():
     monthWord = arrayMonths[month-1];
     month = str(month);
 
-    weekday = WEEKDAYS[now.weekday()];
+    weekday = WEEKDAYS[now_bogota.weekday()];
     
     return [year,month, monthWord, day, weekday,hour];
 
