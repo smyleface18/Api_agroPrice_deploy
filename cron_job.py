@@ -10,6 +10,6 @@ cron_dowload_save = BackgroundScheduler();
 
 
    
-cron_dowload_save.add_job(dowload_save, 'interval', seconds = 50)
+cron_dowload_save.add_job(dowload_save, 'interval', seconds = 30)
 
 
