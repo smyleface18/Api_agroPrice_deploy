@@ -64,6 +64,7 @@ def productos(date):
                             cebolla = arrayWords[0]+" "+arrayWords[1]+" "+arrayWords[2]+" "+arrayWords[8];
                             cebolla = cebolla.split("$");
                             cebolla[1] = float(cebolla[1]);
+                            print(cebolla);
 
 
                         
@@ -75,6 +76,7 @@ def productos(date):
                     frijol = arrayWords[0]+" "+arrayWords[1]+" "+arrayWords[7];
                     frijol = frijol.split("$");
                     frijol[1] = float(frijol[1]);
+                    print(frijol);
                     
                     
                     
@@ -83,18 +85,21 @@ def productos(date):
                         tomate = arrayWords[0]+" "+arrayWords[1]+" "+arrayWords[7];
                         tomate = tomate.split("$");
                         tomate[1] = float(tomate[1]); 
+                        print(tomate);
                         
                         
                 if("MAZORCA" == arrayWords[0]):
                     mazorca = arrayWords[0]+" "+arrayWords[6];
                     mazorca = mazorca.split("$");
                     mazorca[1] = float(mazorca[1]);
+                    print(mazorca);
                     
                     
                 if("PIMENTON" == arrayWords[0]):
                     pimento = arrayWords[0]+" "+arrayWords[6];
                     pimento = pimento.split("$");
                     pimento[1] = float(pimento[1]);
+                    print(pimento);
                     
 
 
