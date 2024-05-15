@@ -1,6 +1,7 @@
 import requests;
 import os;
 from datetime import datetime;
+from datetime import date;
 from email_send import alert_email;
 from PyPDF2 import PdfReader;
 import json;
@@ -156,7 +157,9 @@ def alert_price():
             print(user['value'])
             if((products[index]['price']*1000) >= user['value']):
                 alert_email(user["email"],f"{products[index]['name']} HA LLEGADO A UN PRECIO DE {(products[index]['price']*1000)} X KILOS")
-
+                del content[content.index(user)]
+                with open("python/info_users.json","w") as file_info_users:
+                    file_info_users.write(json.dumps(content, indent=4))
             
             
 
@@ -173,14 +176,14 @@ def alert_price():
 def dowload_save():
     
     print("se ejecuto el la descarga y guardado")
-    date = date_current(); 
+    my_date_hoy = date_current(); 
     
-    year = date[0];
-    month = date[1];
-    monthWord = date[2];
-    day = date[3]; 
+    year = my_date_hoy[0];
+    month = my_date_hoy[1];
+    monthWord = my_date_hoy[2];
+    day = my_date_hoy[3]; 
     
-    print(date)
+    print(my_date_hoy)
 
     url_base = "https://boletin.precioscorabastos.com.co/wp-content/uploads/"
     """url_date = f"{year}/0{month}/Boletin-0{day}{monthWord}{year}.pdf"""
@@ -217,8 +220,15 @@ def dowload_save():
         with open("Boletin.pdf",'wb') as document:
                 document.write(res.content)
                 print("boletin guardado")
-        
-        save_price()
+                with open("historical_prices.json", "r+") as extrac:
+                    my_date = date(int (my_date_hoy[0]), int (my_date_hoy[1]),int (my_date_hoy[3]))
+                    content = json.loads(extrac.read());
+                    index = len(content)-1;
+                    two_index = len(content[index])-1;
+                    date_historical = [int (content[index][two_index]['year']),int (content[index][two_index]['month']),int (content[index][two_index]['day'])]
+                    my_date_historical = date(date_historical[0],date_historical[1],date_historical[2])
+                    if(my_date > my_date_historical):
+                        save_price();
         alert_price()
     else:
         print("email enviado");
