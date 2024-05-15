@@ -16,7 +16,7 @@ def date_current():
     day = str(now.day);
     month = now.month;
     year = str(now.year);
-
+    hour = str(now.hour);
     WEEKDAYS = ("Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo");
     
     arrayMonths = ("enero","febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
@@ -26,7 +26,7 @@ def date_current():
 
     weekday = WEEKDAYS[now.weekday()];
     
-    return [year,month, monthWord, day, weekday];
+    return [year,month, monthWord, day, weekday,hour];
 
 
 def extrac():
