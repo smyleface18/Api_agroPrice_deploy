@@ -186,7 +186,7 @@ def dowload_save():
     print(my_date_hoy)
 
     url_base = "https://boletin.precioscorabastos.com.co/wp-content/uploads/"
-    """url_date = f"{year}/0{month}/Boletin-0{day}{monthWord}{year}.pdf"""
+    
     
     
     if(int (day) >= 10):
@@ -231,8 +231,8 @@ def dowload_save():
                         save_price();
         alert_price()
     else:
-        print("email enviado");
-        alert_email("ca30850@gmail.com","REVISAR LA API");            
+        print(url);
+              
 
  
 
